@@ -1,5 +1,8 @@
 ### `GET /get_defects_data`
 
+#### Base URL
+`https://model-demo-c368a.uc.r.appspot.com`
+
 #### Description
 The `/get_defects_data` endpoint generates and returns a list of defect data. Each defect includes a timestamp, an image URL, and size dimensions (width and height in millimeters).
 
@@ -42,7 +45,7 @@ The `/get_defects_data` endpoint generates and returns a list of defect data. Ea
 
 #### Example Request
 ```bash
-curl -X GET "http://localhost:5000/get_defects_data?count=5"
+curl -X GET "https://model-demo-c368a.uc.r.appspot.com/get_defects_data?count=5"
 ```
 
 #### Example Response
