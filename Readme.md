@@ -75,3 +75,13 @@ curl -X GET "https://model-demo-c368a.uc.r.appspot.com/get_defects_data?count=5"
   ]
 }
 ```
+
+#### Example POSTMAN Request
+- **Method:** GET
+- **URL:** `https://model-demo-c368a.uc.r.appspot.com/get_defects_data?count=10`
+- **Headers:** `Content-Type: application/json`
+- **Body:** None
+- **Response:** See the example response above.
+- **Description:** This request generates and returns a list of 10 defect records.
+
+![POSTMAN IMAGE](./screenshot.png)
